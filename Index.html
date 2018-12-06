@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="Movies.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <script src="MovieData.js"></script>
+    </head>
+
+    <body>
+
+        <ul>
+            <li><a class="active" href="Index.html">Home</a></li>
+            <li><a href="Popular.html">Popular</a></li>
+            <li><a href="TopRated.html">Top Rated</a></li>
+            <li><a href="SearchMovie.html">Search</a></li>
+        </ul>
+
+        <div style="height: 60%; width:50%; border: 1px solid black;
+                    margin: auto; position: absolute; top: 25%; left:0; right: 0;">
+            <div id="popularMoviesDiv">
+                <a class="pageLinks" href="Popular.html">
+                    <div class="transparent"><p>Popular</p></div>
+                </a>
+            </div>
+            <div id="topRatedMovieDiv">
+                <a class="pageLinks" href="TopRated.html">
+                    <div class="transparent"><p>Top Rated</p></div>
+                </a>
+
+            </div>
+            <div id="searchDiv">
+                <a id="homeSearchButton" href="SearchMovie.html">
+                <p style="text-align: center; font-family: Aldrich,serif">Search Movies</p></a>
+            </div>
+        </div>
+    </body>
+</html>

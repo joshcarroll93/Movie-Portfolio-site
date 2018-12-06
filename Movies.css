@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    height: 100%;
+    font-family: 'Aldrich', serif;
+    
+}
+ul {
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: auto;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #dddddd;
+}
+
+li a.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.search-container {
+    float: right;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px solid #000000;
+}
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.search-container button:hover {
+    background: #ccc;
+    border: 1px solid #000000;
+}
+
+#popularMoviesDiv{
+    height: 90%;
+    width: 50%;
+    float: left;
+    /*object-fit: scale-down;*/
+    background-image: url('https://image.tmdb.org/t/p/w342//2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+
+}
+#topRatedMovieDiv{
+    height: 90%;
+    width: 50%;
+    float: right;
+    object-fit: cover;
+    background-image: url("https://image.tmdb.org/t/p/w342//9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+#searchDiv{
+    height: 10%;
+
+    width: 100%;
+    background: blueviolet;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    vertical-align: middle;
+
+}
+#homeSearchButton{
+    font: bold 11px sans-serif;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    display: block;
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+.pageLinks{
+    color: black;
+    text-decoration: solid;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.transparent{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 50px;
+    width: 40%;
+    background: #ffffff;
+    opacity: .5;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}

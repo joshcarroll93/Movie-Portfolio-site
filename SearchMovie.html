@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="Movies.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <script src="MovieData.js"></script>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Popular.html">Popular</a></li>
+            <li><a href="TopRated.html">Top Rated</a></li>
+            <li><a class="active" href="SearchMovie.html">Search</a></li>
+        </ul>
+
+        <div>
+            <form>
+                <input type="text" id="searchBox" placeholder="Search.." name="search">
+                <button type="button" id="searchButton" onclick="searchMovies()" ><i class="fa fa-search" ></i></button>
+            </form>
+
+            <div id="imageContainer"></div>
+            <p id="textContainer"></p>
+        </div>
+    </body>
+</html>
